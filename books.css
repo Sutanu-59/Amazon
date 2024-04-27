@@ -1,0 +1,82 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar {
+    position:fixed ;
+    width: 100%;
+}
+/* navigation 1 */
+#nav {
+    width: 100%;
+    height: 10vh;
+    background: linear-gradient(to bottom right, black, grey, brown, black);
+}
+.navrap1 {
+    width: 80%;
+    margin: auto;
+    height: 10vh;
+}
+
+.logopic {
+    position: absolute;
+}
+
+.logopic img {
+    height: 10vh;
+}
+
+.menu {
+    float: right;
+}
+
+.menu ul {
+    padding-top: 5px;
+}
+
+.menu ul li {
+    display: inline;
+}
+.menu ul li a {
+    color: azure;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    text-decoration: none;
+}
+/* navigation bar 2 */
+.navrap2 {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+}
+
+.menu1 {
+    float: left;
+    padding-left: 50px;
+    width: 80%;
+}
+
+.menu1 ul {
+    margin-top: 8px;
+
+}
+
+.menu1 ul li {
+    display: inline;
+    padding-left: 25px;
+}
+.menu1 ul li a {
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 5px;
+}
+.menu1 ul li a:hover {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: rgba(134, 190, 69, 0.4);
+    color: gold;
+}

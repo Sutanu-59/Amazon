@@ -1,0 +1,203 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar {
+    position:fixed ;
+    width: 100%;
+}
+/* navigation 1 */
+#nav {
+    width: 100%;
+    height: 10vh;
+    background: linear-gradient(to bottom right, black, grey, brown, black);
+}
+
+.navrap1 {
+    width: 80%;
+    margin: auto;
+    height: 10vh;
+}
+
+.logopic {
+    position: absolute;
+}
+
+.logopic img {
+    height: 10vh;
+}
+
+.menu {
+    float: right;
+}
+
+.menu ul {
+    padding-top: 5px;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    color: azure;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/* navigation bar 2 */
+.navrap2 {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+}
+
+.menu1 {
+    float: left;
+    padding-left: 50px;
+    width: 80%;
+}
+
+.menu1 ul {
+    margin-top: 8px;
+
+}
+
+.menu1 ul li {
+    display: inline;
+    padding-left: 25px;
+
+}
+
+.menu1 ul li a {
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.menu1 ul li a:hover {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: rgba(134, 190, 69, 0.4);
+    color: gold;
+}
+.title {
+    height: 28vh;
+    width:80%;
+    box-shadow: 0px 0px 7px 7px rgb(238, 235, 235);
+    margin:auto;
+    padding-left:30px;
+    padding-top: 10px;
+}
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+}
+.sell {
+    width:15%;
+    box-sizing: content-box;
+    background-color:orange;
+    padding: 5px 10px 5px 10px ;
+    border-radius: 45px;
+    text-decoration: none;
+    text-align: center;
+}
+.sell a {
+    text-decoration: none;
+    color: black;
+}
+.sell:hover {
+    box-shadow:0px 0px 5px 5px rgb(238, 235, 235);
+}
+.offsell {
+    width:80%;
+    height:100vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.intro {
+    width:70%;
+    height:50vh;
+}
+.icon {
+    padding-right: 20px;
+}
+.cost {
+    width: 80%;
+    height:60vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.icon1 {
+    padding-top: 30px;
+}
+.icon1 img {
+    border-radius: 50% 50% 50% 50%;
+    height:50vh;
+}
+.intro1 {
+    padding-top: 50px;
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.intro1:hover {
+    background-color: rgb(214, 237, 244);
+}
+.btt{
+    width:100%;
+    padding:20px 0px 20px 0px;
+    background:rgb(41, 43, 69);
+    padding:auto;
+}
+.btt h1 {
+    text-align: center;
+}
+.btt h1 a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.btt h1 a:hover {
+    color:rgb(243, 206, 20);
+    /* font-size: 40px; */
+    /* transition-delay: 3s; */
+    font-weight: bolder;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+footer {
+    background-color: black;
+}
+.fmid {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 20px;
+}
+
+.fmenu h1 b a {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.fmenu h1 a {
+    /* margin-top:50px; */
+    /* mavscode-file://vscode-app/d:/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.htmlrgin-bottom: 50px; */
+    color: azure;
+    display: inline;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.fmenu h1 a:hover {
+    text-decoration: underline;
+    color: orange
+}

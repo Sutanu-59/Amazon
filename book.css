@@ -1,0 +1,187 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar {
+    position:fixed ;
+    width: 100%;
+}
+
+/* navigation 1 */
+#nav {
+    width: 100%;
+    height: 10vh;
+    background: linear-gradient(to bottom right, black, grey, brown, black);
+}
+.navrap1 {
+    width: 80%;
+    margin: auto;
+    height: 10vh;
+}
+
+.logopic {
+    position: absolute;
+}
+
+.logopic img {
+    height: 10vh;
+}
+
+.menu {
+    float: right;
+}
+
+.menu ul {
+    padding-top: 5px;
+}
+
+.menu ul li {
+    display: inline;
+}
+.menu ul li a {
+    color: azure;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    text-decoration: none;
+}
+/* navigation bar 2 */
+.navrap2 {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+}
+
+.menu1 {
+    float: left;
+    padding-left: 50px;
+    width: 80%;
+}
+
+.menu1 ul {
+    margin-top: 8px;
+
+}
+
+.menu1 ul li {
+    display: inline;
+    padding-left: 25px;
+}
+.menu1 ul li a {
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 5px;
+}
+.menu1 ul li a:hover {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: rgba(134, 190, 69, 0.4);
+    color: gold;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:chocolate;
+    font-style: italic;
+}
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mid {
+    height:100vh;
+    width:90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    column-gap: 20px;
+}
+.bar {
+    height:100vh;
+    width:90%;
+    background-color: white;
+    padding-top: 130px;
+}
+.bar h1 a{
+    text-decoration: none;
+}
+.book {
+    border: 2px solid rgb(232, 219, 219);
+    padding: 5px;
+}
+.book a {
+    text-decoration: none;
+    color:black
+}
+.book a h3 {
+    color:green;
+    font-weight: bolder;
+}
+.book:hover{
+    box-shadow: 2px 2px 7px 7px gold;
+}
+.book a h3:hover{
+    background-color: rgb(228, 202, 150);
+}
+.book a h4:hover{
+    background-color: darkturquoise;
+}
+#ath .book {
+    height:70vh;
+    border:0px
+}
+#ath .book img {
+    border-radius: 50% 50% 50% 50%;
+}
+.btt{
+    width:100%;
+    padding:20px 0px 20px 0px;
+    background:rgb(41, 43, 69);
+    padding:auto;
+}
+.btt h1 {
+    text-align: center;
+}
+.btt h1 a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.btt h1 a:hover {
+    color:rgb(243, 206, 20);
+    /* font-size: 40px; */
+    /* transition-delay: 3s; */
+    font-weight: bolder;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+footer {
+    background-color: black;
+}
+.fmid {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 20px;
+}
+
+.fmenu h1 b a {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.fmenu h1 a {
+    /* margin-top:50px; */
+    /* mavscode-file://vscode-app/d:/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.htmlrgin-bottom: 50px; */
+    color: azure;
+    display: inline;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.fmenu h1 a:hover {
+    text-decoration: underline;
+    color: orange
+}
